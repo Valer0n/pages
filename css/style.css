@@ -153,6 +153,7 @@ table {
   margin: 0;
   box-sizing: border-box;
   line-height: 1;
+  scroll-behavior: smooth;
 }
 
 body {
