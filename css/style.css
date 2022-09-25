@@ -159,6 +159,20 @@ body {
   background-color: #fff;
 }
 
+.visually-hidden {
+  display: none;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .container {
   max-width: 1330px;
   padding: 0 15px;
@@ -1297,7 +1311,7 @@ body {
     transform: unset;
   }
   .header .header__wrapper .header__icon-list {
-    margin-right: 230px;
+    margin-right: 260px;
   }
   .header .header__wrapper .header__menu {
     margin-right: 40px;
